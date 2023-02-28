@@ -16,7 +16,7 @@ import {
 } from "./component/styles/component.styles";
 
 const App = () => {
-  const [on, setOn] = useState(false);
+  const [on, setOn] = useState(true);
   const [addModal, setAddModal] = useState(false);
   const [data, loading, refetch] = useFetch();
 

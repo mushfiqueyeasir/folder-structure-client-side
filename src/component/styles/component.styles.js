@@ -116,3 +116,7 @@ export const MainLoading = styled.h1`
   height: 100vh;
   width: 100vw;
 `;
+
+export const ChildFolder = styled.div`
+  padding-left: 2rem;
+`;
