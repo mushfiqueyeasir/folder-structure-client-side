@@ -53,13 +53,13 @@ const Folder = ({ item, index }) => {
   };
 
   return (
-    <div c key={index} id={index}>
+    <div key={index} id={index}>
       <FlexDiv align="space-between">
-        <FlexDiv gap=".5rem">
+        <FlexDiv gap>
           <ArrowButton rotate={!on} onClick={() => setOn(!on)}>
             <i className="fa-solid fa-sort-down" />
           </ArrowButton>
-          <FolderView className="text-xl">{item.name}</FolderView>
+          <FolderView>{item.name}</FolderView>
           <Label large onClick={openDeleteModal}>
             <i className="fa-solid fa-circle-xmark"></i>
           </Label>
